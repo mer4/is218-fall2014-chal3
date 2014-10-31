@@ -3,17 +3,19 @@
 class tableCreator{
 
 	public static $itemnames = ['Date and Time of Tweet',
-								'Tweet',
-								'Tweeted By',
-								'Screen name',
-								'Followers',
-								'Friends',
-								'Listed'];
+					'Tweet',
+					'Tweeted By',
+					'Screen name',
+					'Followers',
+					'Friends',
+					'Listed'];
 								
 	public static $followersnames = ['Name',
-									'Screen name'];
+					'Screen name'];
 								
-	public static $postnames = ['Posted On','Post','Screen Name'];
+	public static $postnames = ['Posted On',
+					'Post',
+					'Screen name'];
 
 	public static function showTimeline($getfield, $string){
 		
