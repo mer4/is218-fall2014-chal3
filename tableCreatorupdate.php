@@ -3,12 +3,12 @@
 class tableCreator{
 
 	public static $itemnames = ['Date and Time of Tweet',
-					'Tweet',
-					'Tweeted By',
-					'Screen name',
-					'Followers',
-					'Friends',
-					'Listed'];
+						'Tweet',
+						'Tweeted By',
+						'Screen name',
+						'Followers',
+						'Friends',
+						'Listed'];
 								
 	public static $followersnames = ['Name',
 					'Screen name'];
